@@ -23,10 +23,10 @@ const createActivityHandler = async (req, res) => {
 
 //Actualiza actividad
 const updateActivityHandler = async (req, res) => {
-    const { name, difficulty, duration, seasons, countriesId } = req.body
+    const { name, difficulty, duration, seasons, countriesIds } = req.body
     try {
-        const updateActivity = await updateActivity (name, difficulty, duration, seasons, countriesId)
-        return res.status(200).json(updateActivity)
+        const updatedActivity = await updateActivity (name, difficulty, duration, seasons, countriesIds)
+        return res.status(200).json(updatedActivity)
     } catch (error) {
         return res.status(400).json({ error: error.message })
     };
@@ -36,8 +36,8 @@ const updateActivityHandler = async (req, res) => {
 const deleteActivityHandler = async (req, res) => {
     const { id } = req.params
     try {
-        const deleteActivity = await deleteActivity (id)
-        return res.status(200).json(deleteActivity)
+        const deletedActivity = await deleteActivity (id)
+        return res.status(200).json(deletedActivity)
     } catch (error) {
         return res.status(400).json({ error: error.message })
     };

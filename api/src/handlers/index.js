@@ -1,11 +1,11 @@
 const { getAllCountriesHandler, getCountryByIdHandler } = require('./countriesHandler')
-const { getAllCountriesHandler, createActivityHandler, updateActivitieshandler, deleteActivityHandler } = require('./activitiesHandler')
+const { getAllActivitiesHandler, createActivityHandler, updateActivityHandler, deleteActivityHandler } = require('./activitiesHandler')
 
 module.exports = {
     getAllCountriesHandler,
     getCountryByIdHandler,
-    getAllCountriesHandler,
+    getAllActivitiesHandler,
     createActivityHandler,
-    updateActivitieshandler,
+    updateActivityHandler,
     deleteActivityHandler
 }

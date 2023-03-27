@@ -1,4 +1,4 @@
-const countryRouter = require('express').Router()
+const countryRouter = require( 'express' ).Router()
 const { getAllCountriesHandler, getCountryByIdHandler } = require('../handlers')
 
 //Toma todos los paises de la DB

@@ -27,4 +27,4 @@ const getCountryById = async (idPais) => {
         return countryById
 };
 
-module.export = { getAllCountries, getCountryById };
+module.exports = { getAllCountries, getCountryById };
