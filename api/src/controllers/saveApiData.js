@@ -16,7 +16,7 @@ const getApiData = async () => {
                 area: country.area? country.area : null,
                 population: country.population,
             }      
-        ) )
+     ));
         return allCountries
     } catch (error) {
         throw Error (`Error API request: ${error.message}`)
