@@ -1,0 +1,63 @@
+/* Container of the whole Home */
+.mainContainer {
+    width: 95%;
+    display: flex;
+    padding: 0.2rem;
+  }
+  
+  /* Within this container is the Country Container and the Pagination */
+  .subContainer {
+    /* background-color: blueviolet; */
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  @media ( max-width: 1030px ){
+    .subContainer {
+      width: 81.5%;
+    } 
+  }
+  
+  @media ( max-width: 974px ){
+    .subContainer {
+      width: 80%;
+    } 
+  }
+  
+  @media ( max-width: 868px ){
+    .subContainer {
+      width: 77%;
+    } 
+  }
+  
+  @media ( max-width: 757px ){
+    .subContainer {
+      width: 74%;
+    } 
+  }
+  
+  @media ( max-width: 667px ){
+    .subContainer {
+      width: 71%;
+    } 
+  }
+  
+  @media ( max-width: 595px ){
+    .subContainer {
+      width: 68%;
+    } 
+  }
+  
+  @media ( max-width: 533px ){
+    .subContainer {
+      width: 63%;
+    } 
+  }
+  
+  @media ( max-width: 461px ){
+    .subContainer {
+      width: 54%;
+    } 
+  }

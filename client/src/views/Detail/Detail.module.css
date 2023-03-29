@@ -1,0 +1,68 @@
+/* General container of the Detail component */
+.mainContainer {
+    height: 88vh;
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Country detail container */
+  .detailContainer {
+    height: 98.4%;
+    width: 100%;
+    display: flex;
+    padding: 0 2rem;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: rgba(224, 255, 255, 0.7);
+  }
+  
+  /* Country Detail */
+  .divDetail {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 90%;
+  }
+  
+  /* Country Activities Container */
+  .divActivitiesContainer {
+    background-color: rgba(255, 224, 253, 0.6);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 1rem;
+    width: 60%;
+    height: 85%;
+    margin-left: 2rem;
+    border-radius: 1rem;
+  }
+  
+  .titleActivities{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .titleActivities h1 {
+    font-size: 1.5rem;
+  }
+  
+  /* Country Activities */
+  .divActivities {
+    margin-top: 0.5rem;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }

@@ -1,0 +1,58 @@
+.mainContainer {
+    margin-top: 0.2rem;
+    height: 86.8vh;
+    width: 93vw;
+    border-radius: 1rem;
+    background-color: rgba(224, 255, 255, 0.7);
+    border: 1px solid black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+  }
+  
+  .message {
+    color: rgba(241, 238, 45, 0.8);
+    text-shadow: 1.5px 1px 1px rgba(0, 0, 0, 0.8);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    width: 30%;
+    margin-top: 1rem;
+    justify-content: space-around;
+  }
+  
+  .buttonContainer button {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 1rem;
+    transition: 0.3s ease-in;
+  }
+  
+  .buttonYes:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+  }
+  
+  .buttonNo:hover {
+    background-color: rgba(0, 255, 13, 0.5);
+  }
+  
+  @media ( max-width: 780px ){
+    .mainContainer {
+      width: 90vw;
+    } 
+  }
+  
+  @media ( max-width: 580px ){
+    .mainContainer {
+      width: 88vw;
+    } 
+  }

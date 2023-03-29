@@ -1,0 +1,52 @@
+.mainContainer {
+    width: 95vw;
+    height: 91vh;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    animation: showing 3s ease-in-out 1;
+  }
+  
+  @keyframes showing {
+    0% {
+      opacity: 0;    
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .mainContainer h1 {
+    color: rgba(0, 255, 13, 0.8);
+    text-shadow: 1.5px 1px 5px rgba(0, 0, 0, 0.8);
+    font-size: 2rem;
+    margin-bottom: 5rem;
+  }
+  
+  .mainContainer p {
+    color: rgba(241, 238, 45, 0.8);
+    text-shadow: 1.5px 1px 5px rgba(0, 0, 0, 0.8);
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .button {
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s ease-in;
+  }
+  
+  .button:hover {
+    transform: scale(1.2);
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(0, 255, 13);
+    text-shadow: 1px 1px 1px black;
+  }
